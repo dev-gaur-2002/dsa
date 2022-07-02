@@ -12,6 +12,7 @@ bool Queue::enqueue(int data){
     s1.push(data);
     return true;
 }
+
 bool Queue::dequeue(){
     if(s1.empty()){
         cout<<"queue is empty"<<endl;
